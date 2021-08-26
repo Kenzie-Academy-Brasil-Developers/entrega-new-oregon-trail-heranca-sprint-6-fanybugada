@@ -12,7 +12,7 @@ let triedToComeAboard = {};
 
 /** GIVEN */
 Given('a capacidade da carroça igual a {int}', function (int) {
-    carroca.capacity = int;
+    carroca.wagonCapacity = int;
 });
 
 Given('a carroça sempre iniciando vazia', function () {
